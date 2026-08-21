@@ -1,1 +1,6 @@
-<template> <h1 class="text-3xl font-bold text-blue-600">TechServe Pro</h1> </template>
+<script setup lang="ts">
+import Sidebar from '@/Layout/Sidebar.vue'
+</script>
+<template>
+  <Sidebar />
+</template>
