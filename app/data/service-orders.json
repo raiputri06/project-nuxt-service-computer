@@ -1,0 +1,47 @@
+[
+  {
+    "code": "SO-2026-00124",
+    "customer": { "name": "Budi Santoso", "phone": "081234567890" },
+    "device": { "name": "ASUS VivoBook 14", "type": "laptop" },
+    "status": "in-progress",
+    "assignedTo": "You",
+    "diagnosis": "Keyboard tidak responsif, kemungkinan konektor lepas",
+    "spareparts": [],
+    "timeline": [
+      { "title": "Diagnosis added", "time": "2026-08-23T10:00:00" },
+      { "title": "Device received", "time": "2026-08-23T09:00:00" }
+    ],
+    "cost": { "service": 150000, "parts": 0 },
+    "createdAt": "2026-08-23T09:00:00"
+  },
+  {
+    "code": "SO-2026-00125",
+    "customer": { "name": "Siti Aminah", "phone": "081298765432" },
+    "device": { "name": "iPhone 13 Pro", "type": "phone" },
+    "status": "waiting-inspection",
+    "assignedTo": "Tech #012",
+    "diagnosis": "",
+    "spareparts": [],
+    "timeline": [
+      { "title": "Device received", "time": "2026-08-23T08:30:00" }
+    ],
+    "cost": { "service": 0, "parts": 0 },
+    "createdAt": "2026-08-23T08:30:00"
+  },
+  {
+    "code": "SO-2026-00119",
+    "customer": { "name": "Corporate Client X", "phone": "081211112222" },
+    "device": { "name": "HP LaserJet Pro M404", "type": "printer" },
+    "status": "awaiting-parts",
+    "assignedTo": "You",
+    "diagnosis": "Fuser unit rusak, perlu ganti",
+    "spareparts": [
+      { "name": "Fuser Unit HP M404", "qty": 1, "price": 850000 }
+    ],
+    "timeline": [
+      { "title": "Parts ordered: Fuser Unit", "time": "2026-08-23T05:00:00" }
+    ],
+    "cost": { "service": 100000, "parts": 850000 },
+    "createdAt": "2026-08-20T09:00:00"
+  }
+]

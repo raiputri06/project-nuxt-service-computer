@@ -134,7 +134,7 @@
       @apply text-[13px] text-paragraf
   }
   .subtitle{
-    @apply text-[29px] font-semibold
+    @apply text-[28px] font-semibold
   }
   .name{
   @apply text-[16px] font-medium text-primary
@@ -143,6 +143,99 @@
   @apply border-1 border-border bg-primary-background  rounded-[100%] px-10 py-2 w-full mt-1
 }
 .nav{
-    @apply  text-sm font-medium
+    @apply  text-[15px] font-medium
+}
+.btn-primary {
+  @apply py-1.5 px-4 bg-primary rounded-md border border-primary text-white
+         transition-all duration-300 ease-out
+         hover:brightness-110
+         focus:outline-none focus:ring-0  cursor-pointer line-clamp-1;
+}
+
+/* StatCard */
+.stat-card {
+  @apply border bg-white p-4;
+}
+.stat-label {
+  @apply text-sm text-muted-foreground mb-2;
+}
+.stat-value {
+  @apply text-2xl font-semibold text-foreground;
+}
+.stat-value-highlight {
+  @apply text-primary;
+}
+/* WeeklyChart */
+.chart-wrapper {
+  @apply w-full;
+}
+.chart-grid-line {
+  @apply stroke-border;
+  stroke-width: 1;
+}
+.chart-line {
+  @apply stroke-primary;
+}
+.chart-dot {
+  @apply fill-primary;
+}
+.chart-labels {
+  @apply flex justify-between text-xs text-muted-foreground mt-2 px-1;
+}
+/* ActivityTimeline */
+.activity-list {
+  @apply flex flex-col;
+}
+.activity-item {
+  @apply flex gap-3;
+}
+.activity-marker-wrapper {
+  @apply flex flex-col items-center;
+}
+.activity-marker {
+  @apply h-2.5 w-2.5 rounded-full bg-primary mt-1.5 shrink-0;
+}
+.activity-line {
+  @apply w-px flex-1 bg-border my-1;
+}
+.activity-content {
+  @apply pb-5;
+}
+.activity-title {
+  @apply text-sm font-medium text-foreground;
+}
+.activity-meta {
+  @apply text-xs text-muted-foreground mt-0.5;
+}
+/* ServiceOrderCard */
+.order-card {
+  @apply rounded-lg border bg-white p-4 flex flex-col gap-2;
+}
+.order-card-header {
+  @apply flex items-center justify-between;
+}
+.order-code {
+  @apply text-sm font-medium text-foreground;
+}
+.order-customer {
+  @apply text-base font-semibold text-foreground;
+}
+.order-device {
+  @apply flex items-center gap-2 text-sm text-muted-foreground;
+}
+.order-card-footer {
+  @apply flex items-center justify-between mt-2 pt-2 border-t;
+}
+.order-assigned {
+  @apply text-xs text-muted-foreground;
+}
+.badge-in-progress {
+  @apply bg-blue-100 text-blue-700 hover:bg-blue-100;
+}
+.badge-waiting {
+  @apply bg-amber-100 text-amber-700 hover:bg-amber-100;
+}
+.badge-awaiting {
+  @apply bg-gray-100 text-gray-700 hover:bg-gray-100;
 }
 }

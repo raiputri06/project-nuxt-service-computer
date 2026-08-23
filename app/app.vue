@@ -2,5 +2,7 @@
 import Sidebar from '@/Layout/Sidebar.vue'
 </script>
 <template>
-  <Sidebar />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>

@@ -81,7 +81,7 @@ const menuItems = [
     <Sidebar collapsible="icon">
       <!-- Sidebar Header -->
       <SidebarHeader class="border-b">
-        <div class="flex items-center gap-3 px-2 py-3">
+        <div class="flex items-center gap-3  py-3">
           <Avatar class="h-9 w-9 shrink-0">
             <AvatarImage
               src="/avatar.png"
@@ -119,7 +119,7 @@ const menuItems = [
               <NuxtLink :to="item.href">
                 <component
                   :is="item.icon"
-                  class="h-4 w-4 shrink-0"
+                  class="h-5 w-5 shrink-0"
                 />
 
                 <span class="nav">
@@ -145,7 +145,7 @@ const menuItems = [
         />
         <div class="flex flex-1 items-center">
           <div>
-            <h1 class="title text-primary">
+            <h1 class="subtitle text-primary">
               Technicians
             </h1>
           </div>
@@ -186,12 +186,11 @@ const menuItems = [
             </AvatarFallback>
           </Avatar>
         </Button> -->
-
       </header>
-      <main class="flex flex-1 flex-col gap-4 p-4 md:p-6">
+      <main class="">
         <slot />
       </main>
-
     </SidebarInset>
   </SidebarProvider>
+  
 </template>
