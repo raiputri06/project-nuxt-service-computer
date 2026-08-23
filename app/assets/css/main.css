@@ -31,8 +31,9 @@
   --color-muted: var(--muted);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-background: var(--primary-background);
   --color-primary: var(--primary);
+  --color-paragraf: var(--paragraf);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -53,8 +54,9 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.32 0.135 264);
+  --paragraf: oklch(0.4841 0.0227 262.91);
+  --primary-background: oklch(0.9669 0.0093 292.8);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -62,9 +64,9 @@
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
+  --border: oklch(0.8277 0.0194 285.97);
   --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --ring: oklch(0.8277 0.0194 285.97);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -74,7 +76,7 @@
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent: oklch(0.3791 0.1378 265.52 / 20%);
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
@@ -118,7 +120,29 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
+   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
   }
+  .container{
+    width: 90%;
+  }
+  .title{
+      @apply lg:text-[30px] text-[27px] font-semibold leading-[50px] max-w-[500px]
+  }
+  .paragraf{
+      @apply text-[13px] text-paragraf
+  }
+  .subtitle{
+    @apply text-[29px] font-semibold
+  }
+  .name{
+  @apply text-[16px] font-medium text-primary
+  }
+  .input-search{
+  @apply border-1 border-border bg-primary-background  rounded-[100%] px-10 py-2 w-full mt-1
+}
+.nav{
+    @apply  text-sm font-medium
+}
 }
