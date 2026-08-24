@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "customerId": 1,
+    "type": "Laptop",
+    "brand": "Dell",
+    "model": "XPS 15 9500",
+    "serialNumber": "8F92K1",
+    "lastServiced": "2023-10-12"
+  },
+  {
+    "id": 2,
+    "customerId": 1,
+    "type": "Smartphone",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "serialNumber": "D2399A",
+    "lastServiced": "2024-01-05"
+  }
+]

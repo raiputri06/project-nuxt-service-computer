@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Cleaning",
+    "description": "Cleaning dan maintenance laptop",
+    "category": "Maintenance",
+    "estimatedDuration": "1-2 days",
+    "basePrice": 150000
+  },
+  {
+    "id": 2,
+    "name": "Windows Installation",
+    "description": "Instalasi ulang sistem operasi Windows",
+    "category": "Software",
+    "estimatedDuration": "1 day",
+    "basePrice": 200000
+  },
+  {
+    "id": 3,
+    "name": "Hardware Repair",
+    "description": "Pemeriksaan dan perbaikan hardware",
+    "category": "Hardware",
+    "estimatedDuration": "2-5 days",
+    "basePrice": 300000
+  }
+]

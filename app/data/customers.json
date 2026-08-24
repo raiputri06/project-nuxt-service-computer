@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "phone": "(555) 019-8372",
+    "email": "sarah@example.com",
+    "address": "123 Tech Lane, Suite 100"
+  },
+  {
+    "id": 2,
+    "name": "Eleanor Shellstrop",
+    "phone": "(555) 019-8372",
+    "email": "eleanor@fake-domain.com",
+    "address": "456 Main Street"
+  }
+]

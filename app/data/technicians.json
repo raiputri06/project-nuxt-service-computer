@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "phone": "081234567890",
+    "specialization": "Hardware",
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Michael Brown",
+    "phone": "081234567891",
+    "specialization": "Software",
+    "status": "busy"
+  },
+  {
+    "id": 3,
+    "name": "David Wilson",
+    "phone": "081234567892",
+    "specialization": "Hardware & Software",
+    "status": "available"
+  }
+]
