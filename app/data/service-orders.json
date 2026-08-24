@@ -45,3 +45,29 @@
     "createdAt": "2026-08-20T09:00:00"
   }
 ]
+[
+  {
+    "id": "SO-001",
+    "customerId": 1,
+    "deviceId": 1,
+    "technicianId": 1,
+    "complaint": "Laptop tidak menyala",
+    "diagnosis": "Kerusakan pada power IC",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-08-20",
+    "estimatedCompletion": "2026-08-25"
+  },
+  {
+    "id": "SO-002",
+    "customerId": 2,
+    "deviceId": 2,
+    "technicianId": 2,
+    "complaint": "Layar berkedip saat digunakan",
+    "diagnosis": "Kemungkinan masalah display cable",
+    "priority": "Medium",
+    "status": "Waiting",
+    "createdAt": "2026-08-21",
+    "estimatedCompletion": "2026-08-27"
+  }
+]
